@@ -5,10 +5,10 @@
 
 ## 💻 프로젝트 소개
 <주식 초보자의 리스크 관리를 위한 매수/매도 추천 서비스>📈  
-<span style="color:grey"> Purchase/Sale Recommendation Service for Novice Investors' Risk Management in Stock Trading" </span>
+<<span style="color:red"> Purchase/Sale Recommendation Service for Novice Investors' Risk Management in Stock Trading" </span>>
 
 주식 관련 정보 및 흐름을 이해하기 어려운 '주린이'😢를 위해, 주가에 영향을 줄 수 있는 요인에 대한 데이터로부터 모델이 매수/유지/매도를 학습하여 그 결과를 추천 -> 투자에 대한 쉽고 간단한 인사이트를 제공!😊  
-<span style="color:grey">To help 'stock market newbie' 😢 who find it difficult to understand stock-related information and trends, a model learns buy/hold/sell recommendations from data on factors that can influence stock prices. It provides simple and straightforward insights into investment! 😊"</span>
+<span style="color:red">To help 'stock market newbie' 😢 who find it difficult to understand stock-related information and trends, a model learns buy/hold/sell recommendations from data on factors that can influence stock prices. It provides simple and straightforward insights into investment! 😊"</span>
 
 
 
