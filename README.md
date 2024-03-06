@@ -4,7 +4,7 @@
 
 
 ## 💻 프로젝트 소개
----
+
 <주식 초보자의 리스크 관리를 위한 매수/매도 추천 서비스>📈  
 
 <<span style="color:red"> Purchase/Sale Recommendation Service for Novice Investors' Risk Management in Stock Trading" </span>>
