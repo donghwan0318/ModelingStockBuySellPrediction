@@ -16,7 +16,6 @@
 
 
 
-
 활용 데이터: 주식 시세 추이, 투자자별 거래 실적, 외국인 보유량, 공매도량, 국내 기사, 영문 기사, 네이버 증권 토론방 게시글, 네이버 검색량, 코스피, 비트코인 거래, 경제심리지수, 뉴스심리지수, 산업생산지수, 소비자물가지수, 소비자신뢰지수, 소비자심리지수, 실업률, 한국은행 기준금리, 환율
 
 데이터 출처: 한국거래소, 한국은행 경제통계시스템, KOSIS, invest.com, 네이버 증권, 네이버 데이터랩, 빅카인즈, CNN
@@ -24,7 +23,7 @@
 개발 기간(duration): 23.04.16 ~ 23.05.19
 
 
-## ❤️ 팀 구성 및 역할
+## ❤️ 팀 구성 및 역할 (Team members)
 - 김민(팀장): 데이터 수집, 데이터 전처리, Y~X EDA, 변수선택(KS검정), XGB, LSTM-CNN, LGBM
 - 김동환: 등락률 라벨링, 데이터 전처리, Y~X EDA, 변수선택(인과관계검정), VAR, LGBM, SVM, log reg
 - 서유진: 데이터 수집(+크롤링), 데이터 전처리, X변수 EDA, LSTM회귀(threshold자동화)
@@ -33,13 +32,15 @@
 
 
 ## 🔍 분석 흐름
-1. 데이터 수집
-2. 데이터 전처리 (기사 데이터 감성분석, 데이터 병합, 결측치 보간, 자료형 수치형으로 통일, 시간 순 정렬)
-3. EDA (X변수간 EDA, Y~X변수간 EDA)
-4. 등락률(continuous) -> 매수/유지/매도(categorical) 라벨링
-5. 변수 선택 (인과관계 검정, VIF, PCA, 요인분석, feature importance, KS검정 시도)
-6. labeled y변수 예측 모델링 (with imbalanced class problem😭)
-7. 예측 결과 시각화 및 결과 분석
+1. 데이터 수집 - data collection
+2. 데이터 전처리 -preprocessing data   
+  (기사 데이터 감성분석, 데이터 병합, 결측치 보간, 자료형 수치형으로 통일, 시간 순 정렬)
+   *Sentiment analysis of news articles, data merging, interpolation of missing values, standardization of data types to numerical, chronological sorting
+4. EDA (X변수간 EDA, Y~X변수간 EDA)
+5. 등락률(continuous) -> 매수/유지/매도(categorical) 라벨링
+6. 변수 선택 (인과관계 검정, VIF, PCA, 요인분석, feature importance, KS검정 시도)
+7. labeled y변수 예측 모델링 (with imbalanced class problem😭)
+8. 예측 결과 시각화 및 결과 분석
 
 
 ## 📈 모델링 개요
