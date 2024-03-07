@@ -33,14 +33,14 @@
 
 ## 🔍 분석 흐름
 1. 데이터 수집 - data collection
-2. 데이터 전처리 -preprocessing data   
-  (기사 데이터 감성분석, 데이터 병합, 결측치 보간, 자료형 수치형으로 통일, 시간 순 정렬)
-Sentiment analysis of news articles, data merging, interpolation of missing values, standardization of data types to numerical, chronological sorting
-4. EDA (X변수간 EDA, Y~X변수간 EDA)
-5. 등락률(continuous) -> 매수/유지/매도(categorical) 라벨링
-6. 변수 선택 (인과관계 검정, VIF, PCA, 요인분석, feature importance, KS검정 시도)
-7. labeled y변수 예측 모델링 (with imbalanced class problem😭)
-8. 예측 결과 시각화 및 결과 분석
+2. 데이터 전처리 -preprocessing data
+   (기사 데이터 감성분석, 데이터 병합, 결측치 보간, 자료형 수치형으로 통일, 시간 순 정렬)
+   Sentiment analysis of news articles, data merging, interpolation of missing values, standardization of data types to numerical, chronological sorting
+3. EDA (X변수간 EDA, Y~X변수간 EDA)
+4. 등락률(continuous) -> 매수/유지/매도(categorical) 라벨링
+5. 변수 선택 (인과관계 검정, VIF, PCA, 요인분석, feature importance, KS검정 시도)
+6. labeled y변수 예측 모델링 (with imbalanced class problem😭)
+7. 예측 결과 시각화 및 결과 분석
 
 
 ## 📈 모델링 개요
