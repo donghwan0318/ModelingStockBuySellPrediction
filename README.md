@@ -38,7 +38,7 @@
 4. EDA (X변수간 EDA, Y~X변수간 EDA)
 5. 등락률(continuous) -> 매수/유지/매도(categorical) 라벨링
 6. 변수 선택 - feature selection
-      (인과관계 검정, VIF, PCA, 요인분석, feature importance, KS검정 시도)
+      <br>(인과관계 검정, VIF, PCA, 요인분석, feature importance, KS검정 시도)
 7. labeled y변수 예측 모델링 (with imbalanced class problem😭)
 8. 예측 결과 시각화 및 결과 분석
 
